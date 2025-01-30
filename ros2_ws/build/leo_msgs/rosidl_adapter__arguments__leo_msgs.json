@@ -1,0 +1,10 @@
+{
+  "package_name": "leo_msgs",
+  "non_idl_tuples": [
+    "/home/podgem/leo_rover_project/ros2_ws/src/leo_common-ros2/leo_msgs:msg/Imu.msg",
+    "/home/podgem/leo_rover_project/ros2_ws/src/leo_common-ros2/leo_msgs:msg/WheelOdom.msg",
+    "/home/podgem/leo_rover_project/ros2_ws/src/leo_common-ros2/leo_msgs:msg/WheelOdomMecanum.msg",
+    "/home/podgem/leo_rover_project/ros2_ws/src/leo_common-ros2/leo_msgs:msg/WheelStates.msg",
+    "/home/podgem/leo_rover_project/ros2_ws/src/leo_common-ros2/leo_msgs:srv/SetImuCalibration.srv"
+  ]
+}
