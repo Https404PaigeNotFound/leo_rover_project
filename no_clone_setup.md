@@ -147,7 +147,7 @@ chmod +x xsarm_amd64_install.sh
 ```
 
 #### If you're running linux in a vm then can use the below
-If your python virutal enviroment is active, deactivate it
+If your python virutal enviroment is active, deactivate it.
 ```
 deactivate
 ```
