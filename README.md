@@ -8,7 +8,7 @@ Clone GitHub Repository to your chosen directory.
 (In Ubuntu terminal)
 ```
 cd ~
-git clone https://github.com/YOUR_USERNAME/leo_rover_project.git
+git clone https://github.com/Https404PaigeNotFound/leo_rover_project.git
 cd leo_rover_project
 ```
 
