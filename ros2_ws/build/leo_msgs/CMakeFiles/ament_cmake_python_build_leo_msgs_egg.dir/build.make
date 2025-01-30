@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_leo_msgs_egg.dir/compiler_depend.mak
 include CMakeFiles/ament_cmake_python_build_leo_msgs_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_leo_msgs_egg:
-	cd /home/podgem/leo_rover_project/ros2_ws/build/leo_msgs/ament_cmake_python/leo_msgs && /home/podgem/leo_rover_project/venv/bin/python3 setup.py egg_info
+	cd /home/podgem/leo_rover_project/ros2_ws/build/leo_msgs/ament_cmake_python/leo_msgs && /usr/bin/python3 setup.py egg_info
 
 ament_cmake_python_build_leo_msgs_egg: CMakeFiles/ament_cmake_python_build_leo_msgs_egg
 ament_cmake_python_build_leo_msgs_egg: CMakeFiles/ament_cmake_python_build_leo_msgs_egg.dir/build.make

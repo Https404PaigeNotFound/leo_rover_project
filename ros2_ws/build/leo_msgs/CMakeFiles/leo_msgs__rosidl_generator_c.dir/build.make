@@ -90,7 +90,7 @@ rosidl_generator_c/leo_msgs/msg/imu.h: rosidl_adapter/leo_msgs/srv/SetImuCalibra
 rosidl_generator_c/leo_msgs/msg/imu.h: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_c/leo_msgs/msg/imu.h: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/podgem/leo_rover_project/ros2_ws/build/leo_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
-	/home/podgem/leo_rover_project/venv/bin/python3 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/podgem/leo_rover_project/ros2_ws/build/leo_msgs/rosidl_generator_c__arguments.json
+	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/podgem/leo_rover_project/ros2_ws/build/leo_msgs/rosidl_generator_c__arguments.json
 
 rosidl_generator_c/leo_msgs/msg/detail/imu__functions.h: rosidl_generator_c/leo_msgs/msg/imu.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/leo_msgs/msg/detail/imu__functions.h

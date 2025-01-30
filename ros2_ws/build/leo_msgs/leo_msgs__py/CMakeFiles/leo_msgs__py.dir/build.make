@@ -103,7 +103,7 @@ rosidl_generator_py/leo_msgs/_leo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: ros
 rosidl_generator_py/leo_msgs/_leo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_py/leo_msgs/_leo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/podgem/leo_rover_project/ros2_ws/build/leo_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
-	cd /home/podgem/leo_rover_project/ros2_ws/build/leo_msgs/leo_msgs__py && /home/podgem/leo_rover_project/venv/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/podgem/leo_rover_project/ros2_ws/build/leo_msgs/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
+	cd /home/podgem/leo_rover_project/ros2_ws/build/leo_msgs/leo_msgs__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/podgem/leo_rover_project/ros2_ws/build/leo_msgs/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
 rosidl_generator_py/leo_msgs/_leo_msgs_s.ep.rosidl_typesupport_introspection_c.c: rosidl_generator_py/leo_msgs/_leo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/leo_msgs/_leo_msgs_s.ep.rosidl_typesupport_introspection_c.c
