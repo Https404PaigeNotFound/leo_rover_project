@@ -122,9 +122,14 @@ Launch the Simulation
 ```
 ros2 launch leo_gz_bringup leo_gz.launch.py
 ```
-_If you encounter issues related to OpenGL or graphics rendering, you can force the use of software rendering. Add this line to your ~/.bashrc file to make it permanent._
+_If you encounter issues related to OpenGL or graphics rendering, you can force the use of software rendering. 
 ```
 export LIBGL_ALWAYS_SOFTWARE=1
+```
+Add this line to your ~/.bashrc file to make it permanent._
+```
+echo "export LIBGL_ALWAYS_SOFTWARE=1" >> ~/.bashrc
+source ~/.bashrc
 ```
 
 ### Add RPLIDAR, RealSense, and Interbotix Arm to Simulation 
